@@ -4,6 +4,7 @@
 ## Pirmos paskaitos darbai:
 
 -   Pirmasis darbas: Sukurti primityvu maisto menių: [Peržiūrėti](./Paskaita%201/Projektas_maistas)
+-   Antrasis darbas: Sudaryti "LKL" komandų sąrašą su logotipais,jiem sukurt puslapius su komandos sudetim [Peržiūrėti](./Paskaita%201/krepsinis)
 -   Antrsis darbas: 4x4 formatu sukurti automobilių galeriją, naudojant table atributą  [Peržiūrėti](./Paskaita%201/Autogalerija)
 -   Trečiasis darbas: Patikrinti buvusių užduočių kodus naudojant [HTML validatorių](https://validator.w3.org/#validate_by_input)
 
