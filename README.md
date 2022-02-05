@@ -1,7 +1,7 @@
 # Praktika
 Cia bus keliami praktikos darbai
 
-##Darbai:
+##  Darbai:
 
--   Pirmasis darbas 3x4 formatu išdėstyti Youtube įrašai
+-   Pirmasis darbas 3x4 formatu išdėstyti Youtube įrašai [Peržiūrėti](./Paskaita 2/CSSGridGallery)
  
