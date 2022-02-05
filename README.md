@@ -3,9 +3,9 @@
 
 ## Pirmos paskaitos darbai:
 
--
--
--
+-   Pirmasis darbas: Sukurti primityvu maisto menių: [Peržiūrėti](./Paskaita%201/Projektas_maistas)
+-   Antrsis darbas: 4x4 formatu sukurti automobilių galeriją, naudojant table atributą  [Peržiūrėti](./Paskaita%201/Autogalerija)
+-   Trečiasis darbas: Patikrinti buvusių užduočių kodus naudojant [HTML validatorių](https://validator.w3.org/#validate_by_input)
 
 ##  Antros paskaitos darbai:
 
