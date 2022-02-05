@@ -1,5 +1,11 @@
 # Praktika
-Cia bus keliami praktikos darbai
+Čia bus keliami praktikos darbai
+
+## Pirmos paskaitos darbai:
+
+-
+-
+-
 
 ##  Antros paskaitos darbai:
 
