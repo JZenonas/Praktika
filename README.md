@@ -1,7 +1,7 @@
 # Praktika
 Cia bus keliami praktikos darbai
 
-##  Darbai:
+##  Antros paskaitos darbai:
 
 -   Pirmasis darbas: 3x4 formatu išdėstyti Youtube įrašai [Peržiūrėti](./Paskaita%202/CSSGridGallery)
 -   Antrsis darbas: Aprašyti megstamą muzikos atlikėja, įkelti keletą dainų  [Peržiūrėti](./Paskaita%202/Atlikejas)
