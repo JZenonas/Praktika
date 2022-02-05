@@ -1,0 +1,25 @@
+.container {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.grid {
+    display: table;
+    align-items: center;
+    justify-items: center;
+}
+.row {
+    display: table-row;
+}
+.cellthumb {
+    display: table-cell;
+}      
+.cell {
+    display: table-cell;
+    vertical-align: middle;
+}
+.thumb {
+        padding: 5px;
+        width: 200px;
+        height: 200px;
+}
