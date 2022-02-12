@@ -8,12 +8,14 @@ body {
 
 .GridBody {
     background-color: #fdfeff;
+    display: block;
     align-self: center;
     justify-content: center;
+    justify-items: center;
     max-height: fit-content;
     max-width: fit-content;
-    margin: auto;
-    padding: 30px;
+    margin: 5px auto;
+    padding: 5px 60px;
 }
 
 .container {  display: grid;
@@ -42,7 +44,7 @@ input {
     border: none;
     border-radius: 10px;
     font-size: large;
-    width: 300px;
+    width: 250px;
     height: 40px;
     padding: 5px;
 }
@@ -56,13 +58,9 @@ textarea {
     resize: none;
 }
 
-.inpAddress {
-    width: 100%;
-}
-
-.inpMessg {
-    width: 100%;
-}
+.lastInp {
+    display: block;
+    width: 99%}
 
 .row1 {
     background-color: #e7e9ff;
@@ -83,7 +81,7 @@ textarea {
 }
 
 button {
-    display: flex;
+    display:grid;
     justify-content: center;
     align-items: center;
     background-color: #233bf5;
@@ -93,25 +91,25 @@ button {
     padding: 20px 60px;
     text-align: center;
     font-size: 12px;
-    margin: 20px auto;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 40px auto;
+    font-family: century-gothic, sans-serif;
   }
 
 .txt {
     color: #a1e2cc;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: century-gothic, sans-serif;
 }
 
 h1 {
     color: #191ef0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: century-gothic, sans-serif;
     font-weight: lighter;
 }
 
 ::placeholder { 
     color: #233bf5;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-  }
+    font-family: century-gothic, sans-serif;
+    padding: 30px;
+}
 
 
