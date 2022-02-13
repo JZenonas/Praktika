@@ -1,37 +1,153 @@
+@font-face {
+  font-family: 'Myriad Pro bold';
+  src: url('./fonts/MyriadPro-Bold.ttf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('./fonts/MyriadPro-Regular.ttf');
+}
 
 body {
     background-color: #f46b95;
-}
+}    
 
 .main {
     width: 1000px;
     height: 500px;
-    margin: 80px auto;
+    margin: 120px auto;
     background-color: #0c1443;
-    background-image: linear-gradient(to right, #0c1443, #303866a9, #0c1443);
+    background-image: linear-gradient(to right, #0c1443, #2f3765d5, #303866, #2f3765d5, #0c1443);
     box-shadow: 0px 0px 15px 2px #0d1544;
+    font-family: "Myriad Pro";
+
 }
 
 #navbar {
+    padding-top: 15px;
     text-align: center;
-}
+    font-size: 14pt;
+  }
 
-ul {
+#navbar ul {
     list-style-type: none;
   }
   
-li {
+#navbar li {
     display: inline;
-    margin: auto;
+    margin: 15px;
   }
 
-#navbar ul > li > a {color: rgb(255, 255, 255);
-    text-decoration: none;
-    font-weight: bold;
-    padding-left: 10px;
-    padding-right: 10px;
-    line-height: 45px;}
+#navbar ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
 
 #navbar ul li a.active-page {
   color: #f46b95;
+  font-family: "Myriad Pro bold";  
+}
+
+.float-container {
+  width: 1000px;
+  height: 420px;
+  margin: 20 auto;
+}
+
+.float-child {
+  color: aliceblue;
+  width: 49%;
+  height: 100%;
+  position: relative;
+  float: left;
+  margin: 0 auto;
+}  
+
+.formSide {
+  margin-left: 80px;
+}
+
+h2 {
+  color: #f46b95;
+  font-family: "Myriad Pro bold";  
+  font-size: 16pt;
+}
+
+.header1 {
+  line-height: 10px;
+}
+
+button {
+  color: white;
+  background-color: #f46b95;
+  padding: 7px 15px;
+  border-radius: 8px;
+  border: none;
+}
+
+textarea {
+  resize: none;
+  width: 300px;
+}
+
+#msgForm {
+  width: 400px;
+  height: fit-content;
+}
+
+#msgForm input {
+  width: 40%;
+  background-color: rgba(255, 255, 255, 0.212);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 1px;
+}
+
+#msgForm ::placeholder {
+  color: white;
+}
+
+#msgForm textarea {
+  width: 86%;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.212);
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 5px 1px;
+}
+
+.infoSide {
+  margin: 0 auto;
+  width: 200px;
+  font-size: 10pt;
+}
+
+.address {
+  width: 150px;
+}
+
+#social {
+  margin-top: -15px;
+}
+
+#social ul{
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+#social li{
+  display: inline;
+}
+
+#social ul li a {
+  color: white;
+  text-decoration: none;
+  font-family: "Myriad Pro bold";
+  padding-right: 5px;
+
 }
