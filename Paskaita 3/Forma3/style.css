@@ -21,7 +21,6 @@ body {
     background-image: linear-gradient(to right, #0c1443, #2f3765d5, #303866, #2f3765d5, #0c1443);
     box-shadow: 0px 0px 15px 2px #0d1544;
     font-family: "Myriad Pro";
-
 }
 
 #navbar {
@@ -109,6 +108,7 @@ textarea {
 
 #msgForm ::placeholder {
   color: white;
+  font-family: "Myriad Pro";
 }
 
 #msgForm textarea {
