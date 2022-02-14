@@ -14,4 +14,9 @@
 -   Antrasis darbas: Aprašyti megstamą muzikos atlikėja, įkelti keletą dainų  [Peržiūrėti](./Paskaita%202/Atlikejas)
 -   Trečiasis darbas: Panaudoti iFrame atributą, panaudoti naujienų portalus [Peržiūrėti](./Paskaita%202/InfoPortalai)
 -   Ketvirtasis darbas: Atlikti įvairias užduotis [Peržiūrėti](./Paskaita%202/Praktikuojames)
- 
+
+##   Trečios paskaitos darbai:
+
+-   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%203/Forma1)
+-   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%203/Forma2)
+-   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%203/Forma3)
