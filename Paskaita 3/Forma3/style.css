@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Myriad Pro bold';
-  src: url('./fonts/MyriadPro-Bold.ttf');
-  font-weight: bold;
+  font-family: 'Myriad Pro';
+  src: url('./fonts/MyriadPro-Regular.ttf');
 }
 
 @font-face {
   font-family: 'Myriad Pro';
-  src: url('./fonts/MyriadPro-Regular.ttf');
-}
+  src: url('./fonts/MyriadPro-Bold.ttf');
+  font-weight: bold;
+}  
 
 body {
     background-color: #f46b95;
@@ -48,7 +48,7 @@ body {
 
 #navbar ul li a.active-page {
   color: #f46b95;
-  font-family: "Myriad Pro bold";  
+  font-weight: bold;  
 }
 
 .float-container {
@@ -72,7 +72,7 @@ body {
 
 h2 {
   color: #f46b95;
-  font-family: "Myriad Pro bold";  
+  font-weight: bold; 
   font-size: 16pt;
 }
 
@@ -148,7 +148,7 @@ textarea {
 #social ul li a {
   color: white;
   text-decoration: none;
-  font-family: "Myriad Pro bold";
+  font-weight: bold;
   padding-right: 10px;
 
 }
