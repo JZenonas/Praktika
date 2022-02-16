@@ -6,6 +6,10 @@ body {
     background: #d4e6fe;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 .GridBody {
     background-color: #fdfeff;
     display: block;
@@ -45,7 +49,7 @@ input {
     border-radius: 10px;
     font-size: large;
     width: 250px;
-    height: 40px;
+    height: 60px;
     padding: 5px;
 }
 
@@ -54,13 +58,13 @@ textarea {
     border-radius: 10px;
     font-size: large;
     height: 100%;
+    width: 100%;
     padding: 5px;
     resize: none;
 }
 
 .lastInp {
-    display: block;
-    width: 99%}
+    width: 100%}
 
 .row1 {
     background-color: #e7e9ff;
@@ -82,15 +86,11 @@ textarea {
 
 button {
     display:grid;
-    justify-content: center;
-    align-items: center;
     background-color: #233bf5;
     border: none;
     border-radius: 30px;
     color: white;
     padding: 20px 60px;
-    text-align: center;
-    font-size: 12px;
     margin: 40px auto;
     font-family: century-gothic, sans-serif;
   }
