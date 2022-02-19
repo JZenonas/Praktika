@@ -41,7 +41,6 @@ footer {
 .row1 li{
     width: 40px;
     height: 40px;
-
 }
 
 h2 {
@@ -69,9 +68,7 @@ h2 {
 
 .nav ul{
     display: flex;
-    flex-grow: 1;
     flex-direction: column;
-    align-content: space-around;
     align-items: center;
     gap: 10px;
 }
