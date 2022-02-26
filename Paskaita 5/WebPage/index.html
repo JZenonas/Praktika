@@ -1,30 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./font-awesome.min.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway|Candal">
+    <link rel="stylesheet" href="./font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
     <title>WebPage!</title>
 </head>
+
 <body>
-   <header>
-       <div class="overlay">
-            <nav> 
-                <div class="icon">
-                    <img src="./img/logo.png" alt="Logo">
-                </div>
-                <div class="navbar">
-                    <div class="dir"><a href="#">HOME</a></div>
-                    <div class="dir"><a href="#">SERVICES</a></div>
-                    <div class="dir"><a href="#">ABOUT</a></div>
-                    <div class="dir"><a href="#">TESTIMONIAL</a></div>
-                    <div class="dir"><a href="#">CONTACT</a></div>
-                </div>
-            </nav>
-       </div>
+    <header>
+        <div id="nav">
+            <div class="icon">
+                <img src="./img/logo.png" alt="Logo">
+            </div>
+            <div id="navbar">
+                <div class="dir"><a href="#">HOME</a></div>
+                <div class="dir"><a href="#services">SERVICES</a></div>
+                <div class="dir"><a href="#emercontainer">ABOUT</a></div>
+                <div class="dir"><a href="#">TESTIMONIAL</a></div>
+                <div class="dir"><a href="#">CONTACT</a></div>
+            </div>
+        </div>
+        <div class="headmain">
+            <img src="./img/logo.png" alt="Logo" height="100px">
+            <h1>HEALTHCARE AT YOUR DESK!!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <i class="bottom fa fa-angle-down"></i>
     </header>
+    <main>
+        <section id="services">
+            <div class="cont1">
+            <div class="cont1col">
+                <div class="cont1item">
+                    <h2>OUR SERVICE</h2>
+                    <hr class="line">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris cillum.
+                    </p>
+                </div>
+            </div>
+            <div class="cont1col">
+                <div class="cont1item">
+                    <i class="fa fa-stethoscope"></i>
+                    <h3>24 Hour Support</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="cont1item">
+                    <i class="fa fa-ambulance"></i>
+                    <h3>Emergency Services</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+            <div class="cont1col">
+                <div class="cont1item">
+                    <i class="fa fa-user-md"></i>
+                    <h3>Medical Counseling</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.
+                    </p>
+                </div>
+                <div class="cont1item">
+                    <i class="fa fa-medkit"></i>
+                    <h3>Premium Healthcare</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua.
+                    </p>
+                </div>
+            </div>
+            </div>
+        </section>
+        <section id="emergency">
+            <div class="emercont">
+                <div class="emeritem">
+                    <div class="centeremeritem">
+                        <h3>Emergency Case</h3>
+                        <p>
+                        I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <button>READ MORE</button>
+                    </div>
+                </div>
+                <div class="emeritem">
+                    <div class="centeremeritem">
+                        <h3>Emergency Case</h3>
+                        <p>
+                        I am text block. Edit this text from Appearance / Customize / Homepage header columns. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </p>
+                        <button>READ MORE</button>
+                    </div>
+                </div>
+                <div class="emeritem">
+                    <div class="centeremeritem">
+
+                        <h3>Opening Hours</h3>
+                        <div class="opentimes">
+
+                        </div>
+                        <button>READ MORE</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        window.onscroll = function() {myFunction()};
+        
+        var navbar = document.getElementById("nav");
+        var sticky = navbar.offsetTop;
+        
+        function myFunction() {
+          if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+          } else {
+            navbar.classList.remove("sticky");
+          }
+        }
+    </script>
 </body>
+
 </html>
