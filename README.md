@@ -20,3 +20,25 @@
 -   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%203/Forma1)
 -   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%203/Forma2)
 -   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%203/Forma3)
+
+##   Ketvirtos paskaitos darbai:
+
+-   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Forma1)
+-   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Forma2)
+-   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Forma3)
+
+##   Penktos paskaitos darbai:
+
+-   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%205/Forma1)
+-   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%205/Forma2)
+-   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%205/Forma3)
+
+##   Šeštos paskaitos darbai:
+
+-   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Forma1)
+-   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Forma2)
+-   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Forma3)
+
+##   Septintos paskaitos darbai:
+
+-   Pirma užduotis. Sukurti "Adaptive Landing Page". [Peržiūrėti](./Paskaita%207/Uzduotis%201)
