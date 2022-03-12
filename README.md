@@ -23,21 +23,28 @@
 
 ##   Ketvirtos paskaitos darbai:
 
--   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Forma1)
--   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Forma2)
--   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Forma3)
+Šios paskaitos metu buvo mokomasi naudoti "Flex".
+
+-   Pirma užduotis. Sukurti "Footer" elementą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Footer)
+-   Antra užduotis. Sukurti "Sign-Up" formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Sign-up)
+-   Trečia užduotis. Sukurti "Subscription" formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/Subscription)
+-   Ketvirta užduotis. Pradėtas kurti tinklapio layautas pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%204/WebPage)
 
 ##   Penktos paskaitos darbai:
 
--   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%205/Forma1)
--   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%205/Forma2)
--   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%205/Forma3)
+ Šios paskaitos metu buvo mokomasi naudoti "Media Queries", siekiant pritaikyti įvairaus dydžio ekranams.
+
+-   Pirma užduotis. Baigtas praeitos paskaitos layautas. [Peržiūrėti](./Paskaita%205/WebPage)
+-   Antra užduotis. Adaptive "Footer". [Peržiūrėti](./Paskaita%205/Footer)
+-   Trečia užduotis. Adaptive "Sign-Up". [Peržiūrėti](./Paskaita%205/Sign-up)
+-   Ketvirta užduotis. Adaptive "Subscription". [Peržiūrėti](./Paskaita%205/Subscription)
 
 ##   Šeštos paskaitos darbai:
 
--   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Forma1)
--   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Forma2)
--   Trečia užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Forma3)
+Šios paskaitos metu buvo mokomasi naudoti "Grid".
+
+-   Pirma užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Grid1)
+-   Antra užduotis. Sukurti formą pagal duotą pavyzdį. [Peržiūrėti](./Paskaita%206/Grid2)
 
 ##   Septintos paskaitos darbai:
 
