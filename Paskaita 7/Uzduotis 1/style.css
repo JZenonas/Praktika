@@ -1,0 +1,278 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mainContainer {
+    width: 90%;
+    background-color: #fff;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    text-align: center;
+    background-color: #1bb59d;
+}
+
+.firstLine {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    gap: 20px;
+}
+
+.firstLine p {
+    font-size: 5vw;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: auto ;
+}
+
+h1 {
+    color: #fff;
+    font-size: 5vw;
+}
+
+.line {
+    background-color: #fff;
+    width: 100%;
+    height: 4px;
+}
+
+header p {
+    width: 60%;
+}
+
+header button {
+    color: #fff;
+    background-color: #ea6e47;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contDiscover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.discoverBox1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 60px 0;
+    gap: 20px;
+}
+
+h2 {
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.discoverBox1 p {
+    width: 90%;
+}
+
+.feature{
+    font-weight: bold;
+}
+
+.discoverBox2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.dicoverChild {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 50%;
+    padding: 15px 80px;
+    gap: 20px;
+}
+
+.dicoverChild i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    color: #4d4e50;
+    background-color: #f7f8fa;
+    width: 100px;
+    height: 100px;
+    border: 3px solid lightgrey;
+    border-radius: 100%;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 10px;
+    width: 70%;
+
+}
+
+.contOrange {
+    color: #fff;
+    background-color: #ea6e47;
+}
+
+.orangeBox {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.orangeChild {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    gap: 20px;
+    padding: 15px 80px;
+    border: 1px solid #f3754c;
+}
+
+.orangeChild i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+}
+
+.darker {
+    background-color: #da5f35;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    width: 70%;
+    margin: 30px 0;
+}
+
+.quote i {
+    color: #d6d6d6;
+    font-size: 100px;
+}
+
+.quote p {
+    font-style: italic;
+    color: #999999;
+}
+
+.quoteText {
+    align-self: center;
+}
+
+.caption {
+    font-style: normal;
+    color: black;
+}
+
+.clrOrange {
+    color: #ea6e47;
+}
+
+footer {
+    color: #fff;
+    background-color: #424345;
+    text-align: center;
+    padding: 40px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+footer ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.active {
+    color: #1bb59d;
+}
+
+/* MEDIA */
+@media (max-width: 1020px) {
+    .dicoverChild{
+        width: 100%;
+    }
+    .orangeChild{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 590px) {
+    header{
+        height: auto;
+    }
+    h1 {
+        font-size: 8vw;
+    }
+    .firstLine {
+        width: 95%;
+    }
+    .firstLine p {
+        font-size: 8vw;
+    }
+    .dicoverChild{
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+    .orangeChild{
+        height: auto;
+        width: 90%;
+        flex-wrap: wrap;
+        padding: 15px 0;
+    }
+
+    .info{
+        width: auto;
+    }
+    .quote {
+        flex-wrap: wrap;
+    }
+}

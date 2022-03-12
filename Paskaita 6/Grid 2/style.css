@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    display: grid;
+    justify-items: center;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    margin: 0 5%;
+    background-color: #fff;
+}
+.container {  
+    margin: 30px 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 120px 150px 90px 40px 1fr 1fr 1fr;
+    grid-auto-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 15px 40px;
+    grid-auto-flow: row;
+    justify-items: stretch;
+    grid-template-areas:
+      "photo title title title title"
+      "photo desc desc desc desc"
+      "photo info info info info"
+      "photo social social social social"
+      "h1 b1 b2 b3 b4"
+      "h2 b5 b6 b7 b8"
+      "h3 b9 b9 b10 b10"
+      ". b11 b11 b12 b12"
+  }
+
+.head1 {grid-area: h1;}
+.head2 {grid-area: h2;}
+.head3 {grid-area: h3;}
+.box1 {grid-area: b1;}
+.box2 {grid-area: b2;}
+.box3 {grid-area: b3;}
+.box4 {grid-area: b4;}
+.box5 {grid-area: b5;}
+.box6 {grid-area: b6;}
+.box7 {grid-area: b7;}
+.box8 {grid-area: b8;}
+.box9 {grid-area: b9;}
+.box10 {grid-area: b10;}
+.box11 {grid-area: b11;}
+.box12 {grid-area: b12;}
+
+
+.photo {
+    grid-area: photo;
+    justify-self: center;
+    width: 320px;
+    height: 440px;
+    background-image: url(./IMG/vz.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+  
+.title { 
+    grid-area: title;
+    margin-top: 30px; 
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #e46a45;
+    margin: 0;
+}
+  
+h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 14px;
+    font-weight: 300;
+    color: #a0a0a0;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h5 {
+    color: #a0a0a0;
+    margin: 0;
+}
+
+  .desc { grid-area: desc; }
+  
+.info { 
+    grid-area: info; 
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+  
+.social { 
+    grid-area: social; 
+}
+
+.social i {
+    text-align: center;
+    width: 40px;
+    padding: 10px;
+    border: 1px solid rgb(173, 173, 173);
+    border-radius: 5px;
+}
+
+.boxhead {
+    justify-self: end;
+}
+.boxhead p {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #a0a0a0; 
+}
+
+.box {
+    padding: 15px;
+}
+
+.box p {
+    font-weight: bold;
+    margin: 0;
+}
+span {
+    display: inline;
+    margin: 0;
+}
