@@ -1,4 +1,4 @@
-# Praktika
+# HTML/CSS Praktika
 Čia bus keliami praktikos darbai
 
 ## Pirmos paskaitos darbai:
